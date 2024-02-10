@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.letter {
+    /*font-family: 'Krona One', sans-serif;*/
+    font-family: 'Tektur', sans-serif;
+}
+
+header nav {
+    background-color: #000;
+
+    z-index: 1;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.navbar-toggler {
+    border: solid 2px #fff;
+}
+
+.bi-list {
+    color: #fff;
+}
+
+#marcas {
+    background-color: #fff;
+
+}
+
+.dropdown-item {
+    color: #000;
+}
+
+.dropdown-item:hover {
+    background-color: #348e91;
+}
+
+.offcanvas {
+    background-color: #000;
+
+}
+
+.offcanvas-title {
+    font-size: 1.5rem;
+}
+
+.nav-item {
+    padding-right: 25px;
+    font-size: 1.1em;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+footer {
+    background-color: #040B0A
+
+}
+
+footer div {
+    padding: 40px 40px;
+}
+
+.infoSection a {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+}
+
+.infoSection a:hover {
+    color: #444444;
+}
+
+.fixed-bottom {
+/ / position: absolute !important;
+}
+
+
+.top {
+    overflow: hidden;
+    position: relative;
+    height: 93vh;
+    width: 100%;
+    top: 0;
+}
+
+.overlay {
+    height: 93vh;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.overlay h1 {
+    color: #fff;
+    font-size: 5em;
+    font-weight: normal;
+}
+
+.overlay h1:first-child {
+    margin-right: auto;
+    padding-left: 15%;
+}
+
+.overlay h1:nth-child(2) {
+    margin-left: auto;
+    padding-right: 15%;
+}
+
+.overlay button {
+    margin-left: auto;
+    margin-right: 15%;
+    padding: 10px 20px;
+    outline: none;
+    color: white;
+    background-color: #348e91;
+    border: 1px solid white;
+    transition: all 0.3s;
+}
+
+.overlay button:hover {
+    border: 1px solid #348e91;
+}
+
+.animate__fadeInUp {
+    animation-duration: 0.19s;
+}
+
+.material-symbols-outlined {
+    font-size: 4em;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #fff;
+}
+
+.material-symbols-outlined.animate__pulse {
+    animation-iteration-count: infinite;
+}
+
+.material-symbols-outlined:hover {
+    color: #348e91;
+}
+
+.swiper-pagination {
+    position: initial !important;
+}
+
+.swiper-button-prev {
+    left: 0 !important;
+}
+
+.swiper-button-next {
+    right: 0 !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #348e91 !important;
+    transition: all 0.3s ease;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    color: #213635 !important;
+}
+
+.swiper-pagination-bullet {
+    background: #348e91 !important;
+}
+
+.card {
+    width: 100%;
+    border-radius: 15px;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.custom-label {
+    background-color: #F1F1F1;
+    font-size: 0.8em;
+    margin-right: auto;
+    margin-left: 16px;
+    margin-top: 16px;
+    padding: 2px 3px;
+}
+
+.card img {
+    width: 45%;
+    height: 50%;
+    padding: 10px;
+}
+
+.card-body {
+    width: 100%;
+    color: #000;
+    padding: 16px 16px 16px 16px;
+}
+
+.ellipsis-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /* Número de líneas permitidas */
+    -webkit-line-clamp: 2;
+    /* Altura de línea */
+    line-height: 1.2em;
+    text-overflow: ellipsis;
+}
+
+.item-link {
+    font-size: 0.8em;
+    padding: 3px 4px;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    border: 1px solid #0a0c0d;
+    font-weight: normal;
+    transition: all 0.3s ease;
+}
+
+.item-link:hover {
+    border: 1px solid #348e91;
+    background-color: #348e91;
+    font-weight: bold;
+}
+
+
+@media (min-width: 768px) {
+    .dropdown:hover > .dropdown-menu {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .overlay h1 {
+        font-size: 3.5em;
+    }
+
+    .overlay h1:first-child, .overlay h1:nth-child(2) {
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    .nav-item {
+        border-bottom: 1px solid rgba(236, 249, 227, 0.23);
+    }
+
+    .overlay h1 {
+        font-size: 1.7em;
+    }
+
+    .overlay h1:first-child {
+        padding-left: 5%;
+    }
+
+    .overlay h1:nth-child(2) {
+        padding-right: 5%;
+    }
+
+    .overlay button {
+        margin-right: 5%;
+        padding: 5px 10px;
+        font-size: 0.8em;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .swiper-wrapper {
+        margin: 0 !important;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: none !important;
+    }
+
+}
+
+
+
