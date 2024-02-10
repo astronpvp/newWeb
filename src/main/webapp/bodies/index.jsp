@@ -1,5 +1,20 @@
 
 <%@ include file="../defaults/Header.jsp" %>
+
+
+<section class="top">
+    <video src="../img/bg2.mp4" class="object-fit-none" autoplay loop muted></video>
+    <div class="container-fluid overlay d-flex align-items-center flex-column justify-content-center">
+        <h1 class="letter animate__animated animate__zoomIn"><strong style="font-size: 1.3em;">ELIGE</strong> TU
+            MOVIL</h1>
+        <h1 class="letter animate__animated animate__zoomIn">DE MANERA <strong
+                style="font-size: 1.3em;">SMART!</strong></h1>
+        <button type="button">SUMERGETE!</button>
+        <div class="position-absolute bottom-0 mb-5">
+            <span class="material-symbols-outlined animate__animated animate__pulse" onclick="scrollToMain()">keyboard_arrow_down</span>
+        </div>
+    </div>
+</section>
 <main id="main" style="background-color: #f2f2f2;">
     <div class="container px-4" style="height: 100vh">
         <section class="pt-2">
