@@ -1,7 +1,8 @@
-
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%  String name = "Inicio";
+    request.setAttribute("namePag", name);
+%>
 <%@ include file="../defaults/Header.jsp" %>
-
-
 <section class="top">
     <video src="../img/bg2.mp4" class="object-fit-none" autoplay loop muted></video>
     <div class="container-fluid overlay d-flex align-items-center flex-column justify-content-center">
