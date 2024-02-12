@@ -20,7 +20,8 @@
     >
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
-    <link href="../css/style-index.css" rel="stylesheet">
+    <link href="../css/style-generic.css" rel="stylesheet">
+    <link href="../css/style-${cssName}.css" rel="stylesheet">
 
     <link
             rel="stylesheet"

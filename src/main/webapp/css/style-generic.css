@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.letter {
+    /*font-family: 'Krona One', sans-serif;*/
+    font-family: 'Tektur', sans-serif;
+}
+
+header nav {
+    background-color: #000;
+
+    z-index: 1;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.navbar-toggler {
+    border: solid 2px #fff;
+}
+
+.bi-list {
+    color: #fff;
+}
+
+#marcas {
+    background-color: #fff;
+
+}
+
+.dropdown-item {
+    color: #000;
+}
+
+.dropdown-item:hover {
+    background-color: #348e91;
+}
+
+.offcanvas {
+    background-color: #000;
+
+}
+
+.offcanvas-title {
+    font-size: 1.5rem;
+}
+
+.nav-item {
+    padding-right: 25px;
+    font-size: 1.1em;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+footer {
+    background-color: #040B0A
+
+}
+
+footer div {
+    padding: 40px 40px;
+}
