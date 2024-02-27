@@ -76,6 +76,10 @@ header nav {
     color: #fff;
 }
 
+.animate__fadeInUp {
+    animation-duration: 0.19s;
+}
+
 footer {
     background-color: #040B0A
 
@@ -114,3 +118,14 @@ footer div {
 .marginTopBot{
     margin: 20px 0;
 }
+
+
+@media (min-width: 768px) {
+    .dropdown:hover > .dropdown-menu {
+        display: block;
+    }
+}
+
+
+
+

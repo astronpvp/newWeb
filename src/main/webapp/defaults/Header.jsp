@@ -58,8 +58,8 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav ms-auto ">
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="/marcas" role="button"
-                               aria-haspopup="true" aria-expanded="false">MARCAS</a>
+                            <a class="nav-link"  id="smallMarca" href="/marcas" role="button"
+                               aria-haspopup="true" aria-expanded="false" >MARCAS</a>
                             <ul class="dropdown-menu animate__animated animate__fadeInUp" id="marcas">
                                 <li><a class="dropdown-item" href="#">iPHONE</a></li>
                                 <li><a class="dropdown-item" href="#">SAMSUNG</a></li>

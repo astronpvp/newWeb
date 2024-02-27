@@ -53,3 +53,13 @@ main{
     border-radius: 10px;
     padding: 10px;
 }
+
+@media (max-width: 767.98px) {
+    .nav-item {
+        border-bottom: 1px solid rgba(236, 249, 227, 0.23);
+    }
+    #smallMarca {
+        border-bottom: 1px solid white;
+
+    }
+}
