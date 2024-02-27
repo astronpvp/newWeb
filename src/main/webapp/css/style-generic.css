@@ -7,13 +7,17 @@
     padding: 0;
     margin: 0;
 }
-
+p{
+    padding: 0 ;
+    margin: 0 ;
+}
 header {
     font-family: 'Merriweather', serif;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+
 }
 
 .letter {
@@ -79,4 +83,34 @@ footer {
 
 footer div {
     padding: 40px 40px;
+}
+.flex{
+    display: flex;
+}
+.none{
+    display: none;
+}
+.clicked{
+    color: #348e91 !important;
+}
+.right{
+    margin-left: auto;
+}
+.rowFlex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.columnFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.relative{
+    position: relative;
+}
+.marginTopBot{
+    margin: 20px 0;
 }

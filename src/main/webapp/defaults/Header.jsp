@@ -21,7 +21,7 @@
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
     <link href="../css/style-generic.css" rel="stylesheet">
-    <link href="../css/style-${cssName}.css" rel="stylesheet">
+    <link href="../css/style-${jscssName}.css" rel="stylesheet">
 
     <link
             rel="stylesheet"
@@ -35,6 +35,9 @@
 
     <script src="../js/swiper.js"></script>
     <script src="../js/scroll.js"></script>
+    <script src="../js/script_${jscssName}.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 </head>
 <body>
