@@ -26,6 +26,7 @@ function filtrar(){
             dropdown.classList.remove("flex");
         }
     });
+
     var marcas = document.getElementsByClassName("checking");
     for (let i = 0; i <marcas.length;i++){
         marcas[i].addEventListener("click",function (e){

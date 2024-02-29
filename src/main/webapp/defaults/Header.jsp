@@ -36,6 +36,7 @@
     <script src="../js/swiper.js"></script>
     <script src="../js/scroll.js"></script>
     <script src="../js/script_${jscssName}.js"></script>
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
@@ -44,11 +45,15 @@
 <header>
     <nav class="navbar navbar-expand-md" data-bs-theme="dark">
         <div class="container px-4">
+
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                     aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <i class="bi-list"></i>
             </button>
-            <a class="navbar-brand" href="/web">PICKSMART</a>
+            <a class="navbar-brand" href="/web">
+                <img class="iconLogo" src="../img/logo.png" alt="">
+                PICKSMART</a>
+
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                  aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">

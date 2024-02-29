@@ -40,60 +40,60 @@
     </div>
     <div class="rowColumn">
         <div class="rowFlex marginTopBot">
-            <div class="carta columnFlex">
+            <div class="carta columnFlex space-between">
                 <img src="../img/iphone.png" alt="">
-                <p>samsung</p>
-                <p>galaxy</p>
-                <div class="rowFlex">
-                    <p>150€</p>
-                    <p class="right">by me</p>
+                <p class="bold">Samsung Galaxy Note 20 Ultra 5g</p>
+                <p>128gb - 16gbRAM - snapdragon</p>
+                <div class="rowFlex width100">
+                    <p class="left bold">150€</p>
+                    <button class="right">Ver en Amazon</button>
                 </div>
             </div>
-            <div class="carta columnFlex">
+            <div class="carta columnFlex space-between">
                 <img src="../img/iphone.png" alt="">
-                <p>samsung</p>
-                <p>galaxy</p>
-                <div class="rowFlex">
-                    <p>150€</p>
-                    <p class="right">by me</p>
+                <p class="bold">Samsung Galaxy Note 20 Ultra 5g</p>
+                <p>128gb - 16gbRAM - snapdragon</p>
+                <div class="rowFlex width100">
+                    <p class="left bold">150€</p>
+                    <button class="right">Ver en Amazon</button>
                 </div>
             </div>
-            <div class="carta columnFlex">
+            <div class="carta columnFlex space-between">
                 <img src="../img/iphone.png" alt="">
-                <p>samsung</p>
-                <p>galaxy</p>
-                <div class="rowFlex">
-                    <p>150€</p>
-                    <p class="right">by me</p>
+                <p class="bold">Samsung Galaxy Note 20 Ultra 5g</p>
+                <p>128gb - 16gbRAM - snapdragon</p>
+                <div class="rowFlex width100">
+                    <p class="left bold">150€</p>
+                    <button class="right">Ver en Amazon</button>
                 </div>
             </div>
-            <div class="carta columnFlex">
+            <div class="carta columnFlex space-between">
                 <img src="../img/iphone.png" alt="">
-                <p>samsung</p>
-                <p>galaxy</p>
-                <div class="rowFlex">
-                    <p>150€</p>
-                    <p class="right">by me</p>
+                <p class="bold">Samsung Galaxy Note 20 Ultra 5g</p>
+                <p>128gb - 16gbRAM - snapdragon</p>
+                <div class="rowFlex width100">
+                    <p class="left bold">150€</p>
+                    <button class="right">Ver en Amazon</button>
                 </div>
             </div>
         </div>
         <div class="rowFlex marginTopBot">
-            <div class="carta columnFlex">
+            <div class="carta columnFlex space-between">
                 <img src="../img/iphone.png" alt="">
-                <p>samsung</p>
-                <p>galaxy</p>
-                <div class="rowFlex">
-                    <p>150€</p>
-                    <p class="right">by me</p>
+                <p class="bold">Samsung Galaxy Note 20 Ultra 5g</p>
+                <p>128gb - 16gbRAM - snapdragon</p>
+                <div class="rowFlex width100">
+                    <p class="left bold">150€</p>
+                    <button class="right">Ver en Amazon</button>
                 </div>
             </div>
-            <div class="carta columnFlex">
+            <div class="carta columnFlex space-between">
                 <img src="../img/iphone.png" alt="">
-                <p>samsung</p>
-                <p>galaxy</p>
-                <div class="rowFlex">
-                    <p>150€</p>
-                    <p class="right">by me</p>
+                <p class="bold">Samsung Galaxy Note 20 Ultra 5g</p>
+                <p>128gb - 16gbRAM - snapdragon</p>
+                <div class="rowFlex width100">
+                    <p class="left bold">150€</p>
+                    <button class="right">Ver en Amazon</button>
                 </div>
             </div>
         </div>

@@ -2,6 +2,10 @@ body{
     background: #181313;
     color: white;
 }
+p{
+    padding: 0 ;
+    margin: 0 ;
+}
 main{
     display: flex;
     padding-top: 5%;
@@ -51,9 +55,24 @@ main{
     min-height: 250px;
     color: black;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
 }
-
+.carta p{
+    text-align: center;
+}
+.carta button{
+    padding: 5px 15px;
+    background: #ffd814;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.carta button:hover{
+    background: #f7ca00;
+}
+.carta > *{
+    margin: 5px 0px;
+}
 @media (max-width: 767.98px) {
     .nav-item {
         border-bottom: 1px solid rgba(236, 249, 227, 0.23);
