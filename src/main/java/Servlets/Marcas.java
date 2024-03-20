@@ -15,6 +15,7 @@ public class Marcas extends HttpServlet {
         PrintWriter out = response.getWriter();
         RequestDispatcher dispatcher = request.getRequestDispatcher("/bodies/marcas.jsp");
         dispatcher.forward(request, response);
+
     }
 
     public void destroy() {
